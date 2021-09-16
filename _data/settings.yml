@@ -1,0 +1,27 @@
+title:  "IWSC 2021"
+tagline: "15th International Workshop on Software Clones"
+description:
+
+# Authors documented under _data
+
+# Change to true for Disqus comments
+disqus:
+  comments: false
+  disqus_shortname: 'millennial-3'
+
+menu:
+- {name: 'Home', file: '../index.html'}
+- {name: 'Objectives', folder: 'pages', file: 'objectives.html'}
+- {name: 'Call for Papers', folder: 'pages', file: 'call_for_papers.html'}
+- {name: 'Dates', folder: 'pages', file: 'important_dates.html'}
+- {name: 'Program', folder: 'pages', file: 'program.html'}
+- {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
+- {name: 'Registration', folder: 'pages', file: 'registration.html'}
+- {name: 'Team', folder: 'pages', file: 'team.html'}
+- {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
+
+social:
+- {icon: 'twitter', link: 'https://twitter.com/IWSC2020'}
+- {icon: 'facebook', link: 'https://www.facebook.com/iwsc.workshop'}
+
+# Available social icons are powered by Font Awesome, so you can use any icon that they offer
