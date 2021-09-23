@@ -13,7 +13,7 @@ Speech from Sider Company [30 minutes]
 break [10 minutes]
 Paper presentation session: Analysis [60 minutes]<ul><li>Rainer Koschke and Marcel Steinbeck, <i>SEE Your Clones With Your Teammates</i></li><li>Yaroslav Golubev and Timofey Bryksin, <i>On the Nature of Code Cloning in Open-Source Java Projects</i></li><li>Daisuke Nishioka and Toshihiro Kamiya, <i>Towards Informative Tagging of Code Fragments to Support the Investigation of Code Clones</i></li></ul>
 lunch break [20 minutes]
-Paper presentation session: Code-clone detection [40 minutes]<ul><li>Andre Schafer, Wolfram Amme and Thomas Heinze, <i>STUBBER : Bytecode Compilation without Dependencies for Java Code Clone Detection</i></li><li>Tomoaki Tsuru, Tasuku Nakagawa, Shinsuke Matsumoto, Yoshiki Higo and Shinji Kusumoto, <i>Type-2 Code Clone Detection for Dockerfiles</i></li></ul>
+Paper presentation session: Code-clone detection [40 minutes]<ul><li>Andre Schafer, Wolfram Amme and Thomas Heinze, <i>STUBBER : Compiling Source Code into Bytecode Without Dependencies for Java Code Clone Detection</i></li><li>Tomoaki Tsuru, Tasuku Nakagawa, Shinsuke Matsumoto, Yoshiki Higo and Shinji Kusumoto, <i>Type-2 Code Clone Detection for Dockerfiles</i></li></ul>
 break [10 minutes]
 Poster session and discussion on the provocative statements [40 minutes]
 break [10 minutes]
