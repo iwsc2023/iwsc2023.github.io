@@ -18,6 +18,7 @@ menu:
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
 - {name: 'Team', folder: 'pages', file: 'team.html'}
+- {name: 'Sponsor', folder: 'pages', file: 'sponsor.html'}
 - {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
 
 social:
