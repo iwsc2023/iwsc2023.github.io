@@ -1,6 +1,7 @@
 import re
 from datetime import datetime, timedelta
 import io
+from collections import namedtuple
 
 import pytz
 import markdown
@@ -31,27 +32,35 @@ for L in session_desc_text.split('\n'):
     paper_list = m.group(3)
     session_title_and_durations.append((title, duration, paper_list))
 
+TimezoneInfo = namedtuple('TimezoneInfo', 'name tzobj')
+
 timezones = [
-    pytz.utc,  # UTC
-    pytz.timezone('Asia/Tokyo'),  # Osaka
-    pytz.timezone('Asia/Dhaka'),  # Dhaka
-    pytz.timezone('America/New_York'),  # NY
-    pytz.timezone('America/Los_Angeles'),  # San Francisco
+    TimezoneInfo('UTC', pytz.utc),
+    TimezoneInfo('Osaka', pytz.timezone('Asia/Tokyo')),
+    TimezoneInfo('Dhaka', pytz.timezone('Asia/Dhaka')),
+    TimezoneInfo('NY', pytz.timezone('America/New_York')),
+    TimezoneInfo('SF', pytz.timezone('America/Los_Angeles')),
 ]
 
 sio = io.StringIO()
 
-FMT = "| %-5s | %-5s | %-5s | %-5s | %-5s | %s | "
-print(FMT % ('UTC', 'Osaka', 'Dhaka', 'NY', 'SF', 'Activity'), file=sio)
+FMT = "| " + "%-5s |" * len(timezones) + " %s | "
+print(FMT % (tuple(tz.name for tz in timezones) + ('Activity',)), file=sio)
 print(FMT % tuple(['-----']*6), file=sio)
 t = datetime(2021, 10, 2, 12, 0, 0, tzinfo=pytz.utc)
+days = [None] * len(timezones)
 for title, duration, paper_list in session_title_and_durations:
-    for tz in timezones:
-        u = t.astimezone(tz)
+    for i, (tzname, tzobj) in enumerate(timezones):
         if 'break' in title:
             print("| %5s " % '', end='', file=sio)
         else:
-            print("| %02d:%02d " % (u.hour, u.minute), end='', file=sio)
+            u = t.astimezone(tzobj)
+            day = u.day
+            if day != days[i]:
+                print("| Oct. %d<br> %02d:%02d " % (day, u.hour, u.minute), end='', file=sio)
+            else:
+                print("| %02d:%02d " % (u.hour, u.minute), end='', file=sio)
+            days[i] = day
     print("| %s [%d minutes] %s|" % (title, duration, paper_list), file=sio)
     t += timedelta(minutes=duration)
 
