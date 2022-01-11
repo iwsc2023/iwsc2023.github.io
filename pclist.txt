@@ -1,0 +1,15 @@
+Norihiro	Yoshida	yoshida@ertl.jp	Nagoya University	
+Manishankar	Mondal	mshankar.mondal@usask.ca	University of Saskatchewan	
+
+
+Vaibhav	Saini	vaibhav.saini@microsoft.com	Microsoft						
+Foutse	Khomh	foutse.khomh@polymtl.ca	DGIGL, École Polytechnique de Montréal						
+Daqing	Hou	dhou@clarkson.edu	Clarkson University	
+Yoshiki	Higo	higo@ist.osaka-u.ac.jp	Osaka University	
+Xin	Peng	pengxin@fudan.edu.cn	Fudan University	
+Matthew	Stephan	stephamd@miamioh.edu	Miami University						
+Lingxiao	Jiang	lxjiang@smu.edu.sg	Singapore Management University	
+Ravindra	Naik	rd.naik@tcs.com	TCS Research, TRDDC, Pune	
+Eunjong	Choi	echoi@kit.ac.jp	Kyoto Institute of Technology	
+Jens	Krinke	krinke@acm.org	University College London	
+Banani	Roy	banani.roy@usask.ca	University of Saskatchewan

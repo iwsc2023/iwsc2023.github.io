@@ -1,5 +1,5 @@
-title:  "IWSC 2022"
-tagline: "16th International Workshop on Software Clones"
+title:  "IWSC 2020"
+tagline: "14th International Workshop on Software Clones"
 description:
 
 # Authors documented under _data
@@ -18,11 +18,10 @@ menu:
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
 - {name: 'Team', folder: 'pages', file: 'team.html'}
-- {name: 'Sponsor', folder: 'pages', file: 'sponsor.html'}
 - {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/IWSC2022'}
+- {icon: 'twitter', link: 'https://twitter.com/IWSC2020'}
 - {icon: 'facebook', link: 'https://www.facebook.com/iwsc.workshop'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
