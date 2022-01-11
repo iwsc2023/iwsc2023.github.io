@@ -4,7 +4,9 @@
   text-align: center;
   min-height: 56px;
   line-height: 45px;
-  width: 100%;
+  width: $container-width;
+  position:absolute; 
+  bottom:0;
 }
 .footer a {
   color: $brand-color;
