@@ -400,7 +400,7 @@ blockquote p {
 .emphasized_box {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px black;
+  border: 3px #566573;
   border-style: solid;
   color: red;
   font-size: 18px;
