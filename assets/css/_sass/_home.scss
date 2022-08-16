@@ -8,13 +8,14 @@
 }
 
 .featured-images span {
-   display: inline-block;
-   color: white;
-   font: 18px/32px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 5px 5px 5px 10px;
+  display: inline-block;
+  color: white;
+  font: 18px/32px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 5px 5px 10px;
 }
 
 .featured-posts {
@@ -27,29 +28,32 @@
 }
 
 .featured-posts h2 span {
-   display: inline-block;
-   color: white;
-   font: bold 24px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 10px;
-   margin-top: 100px;
+  display: inline-block;
+  color: white;
+  font: bold 24px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  margin-top: 100px;
 }
 
 .featured-posts h3 span {
-   display: inline-block;
-   color: white;
-   font: bold 18px Helvetica, Sans-Serif;
-   letter-spacing: -1px;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-   padding: 5px 5px 5px 10px;
+  display: inline-block;
+  color: white;
+  font: bold 18px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0);
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px 5px 5px 10px;
 }
 
 .featured-posts span a {
   color: white;
 }
+
 .featured-posts h1 {
   margin: 10px;
 }
@@ -61,9 +65,11 @@
 .pagination {
   text-align: center;
 }
+
 .pagination a {
   text-decoration: none;
 }
+
 .pagination-button {
   color: #999;
   border: 1px solid #e0e0e0;
@@ -74,9 +80,11 @@
   font-size: 16px;
   font-weight: bold;
 }
+
 .pagination-active {
   color: black;
 }
+
 .pagination-active:hover {
   background-color: #e0e0e0;
 }
@@ -114,7 +122,7 @@
   color: #2980B9;
 }
 
-.tg  {
+.tg {
   width: 100%;
   border-collapse: collapse;
   border-spacing: 0;
@@ -229,8 +237,9 @@
 }
 
 .page_content .image_box img {
-    width: 350px; /* you can use % */
-    height: auto;
+  width: 350px;
+  /* you can use % */
+  height: auto;
 }
 
 .editions li {
@@ -277,7 +286,7 @@
 .emphasized_box {
   padding: 10px;
   margin-bottom: 10px;
-  border: 1px black;
+  border: 3px #415a7c;
   border-style: solid;
   color: red;
   font-size: 18px;
@@ -289,12 +298,12 @@
 }
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #2fa2f2;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2fa2f2;
+  margin: 1em 0;
+  padding: 0;
 }
 
 .sub_title {
