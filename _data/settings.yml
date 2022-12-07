@@ -14,7 +14,7 @@ menu:
 - {name: 'Objectives', folder: 'pages', file: 'objectives.html'}
 - {name: 'Call for Papers', folder: 'pages', file: 'call_for_papers.html'}
 - {name: 'Dates', folder: 'pages', file: 'important_dates.html'}
-- {name: 'Program', folder: 'pages', file: 'program.html'}
+#- {name: 'Program', folder: 'pages', file: 'program.html'}
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
 - {name: 'Team', folder: 'pages', file: 'team.html'}
