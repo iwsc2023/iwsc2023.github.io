@@ -21,7 +21,7 @@ menu:
 - {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
 
 social:
-- {icon: 'twitter', link: 'https://twitter.com/IWSC2023'}
+#- {icon: 'twitter', link: 'https://twitter.com/IWSC2023'}
 - {icon: 'facebook', link: 'https://www.facebook.com/iwsc.workshop'}
 
 # Available social icons are powered by Font Awesome, so you can use any icon that they offer
