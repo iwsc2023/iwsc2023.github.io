@@ -17,6 +17,7 @@ menu:
 #- {name: 'Program', folder: 'pages', file: 'program.html'}
 #- {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
+- {name: 'Accommodation', folder: 'pages', file: 'accommodation.html'}
 - {name: 'Team', folder: 'pages', file: 'team.html'}
 - {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
 
