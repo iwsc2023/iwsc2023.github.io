@@ -18,8 +18,8 @@ menu:
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
 - {name: 'Accommodation', folder: 'pages', file: 'accommodation.html'}
-- {name: 'Org & PC Committee', folder: 'pages', file: 'team.html'}
-- {name: 'St Committee', folder: 'pages', file: 'steering.html'}
+- {name: 'Org & PC Comm', folder: 'pages', file: 'team.html'}
+- {name: 'St Comm', folder: 'pages', file: 'steering.html'}
 - {name: 'Pre. Editions', folder: 'pages', file: 'prev_editions.html'}
 
 social:
