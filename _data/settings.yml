@@ -18,9 +18,9 @@ menu:
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
 - {name: 'Registration', folder: 'pages', file: 'registration.html'}
 - {name: 'Accommodation', folder: 'pages', file: 'accommodation.html'}
-- {name: 'Organizing and PC Committee', folder: 'pages', file: 'team.html'}
-- {name: 'Steering Committee', folder: 'pages', file: 'steering.html'}
-- {name: 'Previous Editions', folder: 'pages', file: 'prev_editions.html'}
+- {name: 'Org & PC Committee', folder: 'pages', file: 'team.html'}
+- {name: 'St Committee', folder: 'pages', file: 'steering.html'}
+- {name: 'Pre. Editions', folder: 'pages', file: 'prev_editions.html'}
 
 social:
 #- {icon: 'twitter', link: 'https://twitter.com/IWSC2023'}
