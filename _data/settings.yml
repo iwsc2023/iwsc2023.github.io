@@ -16,9 +16,9 @@ menu:
 - {name: 'Dates', folder: 'pages', file: 'important_dates.html'}
 - {name: 'Program', folder: 'pages', file: 'program.html'}
 - {name: 'Keynote', folder: 'pages', file: 'keynote.html'}
-- {name: 'Registration', folder: 'pages', file: 'registration.html'}
+- {name: 'Reg', folder: 'pages', file: 'registration.html'}
 - {name: 'Accom', folder: 'pages', file: 'accommodation.html'}
-- {name: 'Org & PC Comm', folder: 'pages', file: 'team.html'}
+- {name: 'Org & PC', folder: 'pages', file: 'team.html'}
 - {name: 'St Comm', folder: 'pages', file: 'steering.html'}
 - {name: 'Pre. Editions', folder: 'pages', file: 'prev_editions.html'}
 
